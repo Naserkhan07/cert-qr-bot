@@ -1,0 +1,10 @@
+# Extra dependencies for the AI image-generator (diffusion inpainting) step.
+# Requires a CUDA GPU (Kaggle free T4/P100). The deterministic warp path only
+# needs requirements.txt (CPU).
+-r requirements.txt
+torch
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.28.0
+safetensors
+Pillow>=9.0

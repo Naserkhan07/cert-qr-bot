@@ -1,0 +1,12 @@
+# Pinned: OpenCV 4.10 contrib build loads the WeChat QR CNN caffemodel.
+# (OpenCV 5.x Python bindings dropped the 4-file model constructor.)
+opencv-contrib-python-headless==4.10.0.84
+qrcode>=7.4.2
+huggingface_hub>=0.20.0
+numpy>=1.24
+Pillow>=9.0
+
+# AI vision model (Qwen2-VL) reads candidate details off certificate images
+transformers>=4.46
+accelerate>=0.26
+requests>=2.28
